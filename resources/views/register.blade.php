@@ -58,7 +58,6 @@
                     @enderror
                 </div>
 
-                {{-- Бутон --}}
                 <div class="d-grid">
                     <button type="submit" class="btn btn-primary">Регистрирай се</button>
                 </div>
