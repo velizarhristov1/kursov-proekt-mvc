@@ -22,7 +22,6 @@
             <form action="{{ route('users.store') }}" method="POST">
                 @csrf
 
-                {{-- Име --}}
                 <div class="mb-3">
                     <label for="name" class="form-label">Име:</label>
                     <input type="text" class="form-control @error('name') is-invalid @enderror"
@@ -32,7 +31,6 @@
                     @enderror
                 </div>
 
-                {{-- Email --}}
                 <div class="mb-3">
                     <label for="email" class="form-label">Имейл:</label>
                     <input type="email" class="form-control @error('email') is-invalid @enderror"
@@ -42,7 +40,6 @@
                     @enderror
                 </div>
 
-                {{-- Парола --}}
                 <div class="mb-3">
                     <label for="password" class="form-label">Парола:</label>
                     <input type="password" class="form-control @error('password') is-invalid @enderror"
@@ -52,7 +49,6 @@
                     @enderror
                 </div>
 
-                {{-- Повторете парола --}}
                 <div class="mb-3">
                     <label for="psw-repeat" class="form-label">Повторете паролата:</label>
                     <input type="password" class="form-control @error('psw-repeat') is-invalid @enderror"
